@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LeafletMap'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'You can use this library to show osm map on the view'
 
   s.description      = <<-DESC
