@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2F5CD44E1F57AD54148AADFE /* Pods_LeafletMap_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49BCE51053176FC73E879D56 /* Pods_LeafletMap_Tests.framework */; };
+		2FD76D4C2BF63146004DD7CF /* LeafletMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD76D4B2BF63146004DD7CF /* LeafletMap.swift */; };
+		2FD76D4E2BF63292004DD7CF /* Leaflet.html in Sources */ = {isa = PBXBuildFile; fileRef = 2FD76D4D2BF63292004DD7CF /* Leaflet.html */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -31,6 +33,8 @@
 		0FE4643BAC27F3395F7CE8CF /* Pods-LeafletMap_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeafletMap_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LeafletMap_Tests/Pods-LeafletMap_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1C557D6CA86B8292C98B6881 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		23C2C3EC2CB04DDC93EA5DC6 /* Pods-LeafletMap_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeafletMap_Tests.release.xcconfig"; path = "Target Support Files/Pods-LeafletMap_Tests/Pods-LeafletMap_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2FD76D4B2BF63146004DD7CF /* LeafletMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeafletMap.swift; sourceTree = "<group>"; };
+		2FD76D4D2BF63292004DD7CF /* Leaflet.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = Leaflet.html; sourceTree = "<group>"; };
 		3E2740537C05E05C53A06BEC /* Pods-LeafletMap_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeafletMap_Example.release.xcconfig"; path = "Target Support Files/Pods-LeafletMap_Example/Pods-LeafletMap_Example.release.xcconfig"; sourceTree = "<group>"; };
 		49BCE51053176FC73E879D56 /* Pods_LeafletMap_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeafletMap_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5188D1633D41BD9E34B86AFE /* Pods-LeafletMap_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeafletMap_Example.debug.xcconfig"; path = "Target Support Files/Pods-LeafletMap_Example/Pods-LeafletMap_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -87,6 +91,15 @@
 				23C2C3EC2CB04DDC93EA5DC6 /* Pods-LeafletMap_Tests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		2FD76D4A2BF6313A004DD7CF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2FD76D4B2BF63146004DD7CF /* LeafletMap.swift */,
+				2FD76D4D2BF63292004DD7CF /* Leaflet.html */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 		607FACC71AFB9204008FA782 = {
@@ -152,6 +165,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				2FD76D4A2BF6313A004DD7CF /* Classes */,
 				CA31D60C274BB296D6E361ED /* LeafletMap.podspec */,
 				1C557D6CA86B8292C98B6881 /* README.md */,
 				7BFC27AF03B814930C8E7268 /* LICENSE */,
@@ -351,6 +365,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				2FD76D4E2BF63292004DD7CF /* Leaflet.html in Sources */,
+				2FD76D4C2BF63146004DD7CF /* LeafletMap.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
