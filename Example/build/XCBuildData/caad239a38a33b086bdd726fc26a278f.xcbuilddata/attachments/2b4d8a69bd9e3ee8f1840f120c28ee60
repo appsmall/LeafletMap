@@ -1,0 +1,5 @@
+ extern const unsigned char LeafletMapVersionString[];
+ extern const double LeafletMapVersionNumber;
+
+ const unsigned char LeafletMapVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:LeafletMap  PROJECT:Pods-1" "\n";
+ const double LeafletMapVersionNumber __attribute__ ((used)) = (double)1.;

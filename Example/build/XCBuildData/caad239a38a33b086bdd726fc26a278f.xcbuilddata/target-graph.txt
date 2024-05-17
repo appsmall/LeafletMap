@@ -1,0 +1,8 @@
+Target dependency graph (4 targets)
+Target 'Pods-LeafletMap_Tests' in project 'Pods'
+➜ Explicit dependency on target 'FBSnapshotTestCase' in project 'Pods'
+➜ Explicit dependency on target 'Pods-LeafletMap_Example' in project 'Pods'
+Target 'Pods-LeafletMap_Example' in project 'Pods'
+➜ Explicit dependency on target 'LeafletMap' in project 'Pods'
+Target 'LeafletMap' in project 'Pods' (no dependencies)
+Target 'FBSnapshotTestCase' in project 'Pods' (no dependencies)

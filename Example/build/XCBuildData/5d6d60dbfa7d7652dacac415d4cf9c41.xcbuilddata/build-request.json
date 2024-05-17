@@ -1,0 +1,55 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e9821ded137e13bbb9a6e2b86de32ed2bd2"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e984e8eb360f54d61202554f556a03cc1b0"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e980b7ae47a32d9e9729c05e2bae776354e"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e988bb8341067c0a8cc8b8bbe5ac975e3d3"
+    }
+  ],
+  "containerPath" : "/Users/rahulchopra/Documents/GitHub/LeafletMap/Example/Pods/Pods.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/rahulchopra/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/rahulchopra/Library/Developer/Xcode/DerivedData/Pods-dtmqxjxahmppyddbjnhxboxsouhh/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/rahulchopra/Library/Developer/Xcode/DerivedData/Pods-dtmqxjxahmppyddbjnhxboxsouhh/Index.noindex/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : false,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : false
+}

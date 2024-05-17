@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LeafletMap'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'Leaflet map integration for iOS applications using WebView.'
 
   s.description      = <<-DESC
@@ -35,8 +35,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '12.0'
 
   s.source_files = 'LeafletMap/Classes/**/*'
-  
-  s.private_header_files = 'LeafletMap/Classes/**/*.{h,m,swift}'
   
   # s.resource_bundles = {
   #   'LeafletMap' => ['LeafletMap/Assets/*.png']

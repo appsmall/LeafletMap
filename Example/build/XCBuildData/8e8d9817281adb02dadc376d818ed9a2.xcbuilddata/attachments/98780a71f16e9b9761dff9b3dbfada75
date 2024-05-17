@@ -1,0 +1,10 @@
+framework module LeafletMap {
+  umbrella header "LeafletMap-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module LeafletMap.__Swift {
+  exclude header "LeafletMap-Swift.h"
+}

@@ -1,0 +1,6 @@
+framework module Pods_LeafletMap_Tests {
+  umbrella header "Pods-LeafletMap_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

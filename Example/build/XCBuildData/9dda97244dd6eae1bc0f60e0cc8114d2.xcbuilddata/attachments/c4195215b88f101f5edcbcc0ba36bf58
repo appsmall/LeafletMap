@@ -1,0 +1,11 @@
+framework module LeafletMap {
+  umbrella header "LeafletMap-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module LeafletMap.Swift {
+  header "LeafletMap-Swift.h"
+  requires objc
+}

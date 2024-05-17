@@ -171,8 +171,7 @@
 		07A0B9ED6FE98DE7EB9B37112349C216 /* LeafletMap */ = {
 			isa = PBXGroup;
 			children = (
-				2F6A80E22BF726D6005CAAC3 /* Leaflet.swift */,
-				2F6A80E12BF726D6005CAAC3 /* LeafletMap.swift */,
+				2F12E2042BF776B1002A1804 /* Classes */,
 				158A0628696D1C49CDC74B4D6F4519E8 /* Pod */,
 				D07DA3CEF983886DE4D59C5D55498B28 /* Support Files */,
 			);
@@ -205,6 +204,23 @@
 				07A0B9ED6FE98DE7EB9B37112349C216 /* LeafletMap */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2F12E2032BF776A6002A1804 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				2F6A80E22BF726D6005CAAC3 /* Leaflet.swift */,
+				2F6A80E12BF726D6005CAAC3 /* LeafletMap.swift */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		2F12E2042BF776B1002A1804 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2F12E2032BF776A6002A1804 /* Private */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		3D51EA5F81254331C4C597077A82CAD0 /* Pods-LeafletMap_Example */ = {
