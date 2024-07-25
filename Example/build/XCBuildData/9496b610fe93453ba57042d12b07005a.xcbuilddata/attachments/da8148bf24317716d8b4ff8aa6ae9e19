@@ -7,14 +7,19 @@
     "emit-module-diagnostics" : "/Users/rahulchopra/Documents/GitHub/LeafletMap/Example/build/Pods.build/Release-iphoneos/LeafletMap.build/Objects-normal/arm64/LeafletMap-master-emit-module.dia",
     "swift-dependencies" : "/Users/rahulchopra/Documents/GitHub/LeafletMap/Example/build/Pods.build/Release-iphoneos/LeafletMap.build/Objects-normal/arm64/LeafletMap-master.swiftdeps"
   },
-  "/Users/rahulchopra/Documents/GitHub/LeafletMap/Classes/Privates/Leaflet.swift" : {
+  "/Users/rahulchopra/Documents/GitHub/LeafletMap/Classes/Private/Leaflet.swift" : {
     "index-unit-output-path" : "/Pods.build/Release-iphoneos/LeafletMap.build/Objects-normal/arm64/Leaflet.o",
     "llvm-bc" : "/Users/rahulchopra/Documents/GitHub/LeafletMap/Example/build/Pods.build/Release-iphoneos/LeafletMap.build/Objects-normal/arm64/Leaflet.bc",
     "object" : "/Users/rahulchopra/Documents/GitHub/LeafletMap/Example/build/Pods.build/Release-iphoneos/LeafletMap.build/Objects-normal/arm64/Leaflet.o"
   },
-  "/Users/rahulchopra/Documents/GitHub/LeafletMap/Classes/Privates/LeafletMap.swift" : {
+  "/Users/rahulchopra/Documents/GitHub/LeafletMap/Classes/Private/LeafletMap.swift" : {
     "index-unit-output-path" : "/Pods.build/Release-iphoneos/LeafletMap.build/Objects-normal/arm64/LeafletMap.o",
     "llvm-bc" : "/Users/rahulchopra/Documents/GitHub/LeafletMap/Example/build/Pods.build/Release-iphoneos/LeafletMap.build/Objects-normal/arm64/LeafletMap.bc",
     "object" : "/Users/rahulchopra/Documents/GitHub/LeafletMap/Example/build/Pods.build/Release-iphoneos/LeafletMap.build/Objects-normal/arm64/LeafletMap.o"
+  },
+  "/Users/rahulchopra/Documents/GitHub/LeafletMap/Classes/Public/ViewController.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/LeafletMap.build/Objects-normal/arm64/ViewController.o",
+    "llvm-bc" : "/Users/rahulchopra/Documents/GitHub/LeafletMap/Example/build/Pods.build/Release-iphoneos/LeafletMap.build/Objects-normal/arm64/ViewController.bc",
+    "object" : "/Users/rahulchopra/Documents/GitHub/LeafletMap/Example/build/Pods.build/Release-iphoneos/LeafletMap.build/Objects-normal/arm64/ViewController.o"
   }
 }

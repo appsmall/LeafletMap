@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LeafletMap'
-  s.version          = '0.1.4'
+  s.version          = '0.1.7'
   s.summary          = 'Leaflet map integration for iOS applications using WebView.'
 
   s.description      = <<-DESC
@@ -33,8 +33,9 @@ Pod::Spec.new do |s|
   s.swift_version = '5.0'
   s.ios.deployment_target = '12.0'
 
-  s.source_files = 'Classes/Public/**/*.swift'
+
 
   s.exclude_files = 'Classes/Private/**/*.swift'
+  s.source_files = 'Classes/Public/**/*.swift'
   
 end
