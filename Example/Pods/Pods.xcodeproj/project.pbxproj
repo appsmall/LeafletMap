@@ -206,21 +206,21 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		2F12E2032BF776A6002A1804 /* Private */ = {
+		2F12E2042BF776B1002A1804 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2F99CCCD2C520A4600A0A5C6 /* Privates */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2F99CCCD2C520A4600A0A5C6 /* Privates */ = {
 			isa = PBXGroup;
 			children = (
 				2F6A80E22BF726D6005CAAC3 /* Leaflet.swift */,
 				2F6A80E12BF726D6005CAAC3 /* LeafletMap.swift */,
 			);
-			path = Private;
-			sourceTree = "<group>";
-		};
-		2F12E2042BF776B1002A1804 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				2F12E2032BF776A6002A1804 /* Private */,
-			);
-			path = Classes;
+			path = Privates;
 			sourceTree = "<group>";
 		};
 		3D51EA5F81254331C4C597077A82CAD0 /* Pods-LeafletMap_Example */ = {

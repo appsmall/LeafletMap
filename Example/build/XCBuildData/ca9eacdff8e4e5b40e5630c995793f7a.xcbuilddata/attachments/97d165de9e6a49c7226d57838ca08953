@@ -7,12 +7,12 @@
     "emit-module-diagnostics" : "/Users/rahulchopra/Documents/GitHub/LeafletMap/Example/build/Pods.build/Release-iphoneos/LeafletMap.build/Objects-normal/arm64/LeafletMap-master-emit-module.dia",
     "swift-dependencies" : "/Users/rahulchopra/Documents/GitHub/LeafletMap/Example/build/Pods.build/Release-iphoneos/LeafletMap.build/Objects-normal/arm64/LeafletMap-master.swiftdeps"
   },
-  "/Users/rahulchopra/Documents/GitHub/LeafletMap/Private/Leaflet.swift" : {
+  "/Users/rahulchopra/Documents/GitHub/LeafletMap/Classes/Privates/Leaflet.swift" : {
     "index-unit-output-path" : "/Pods.build/Release-iphoneos/LeafletMap.build/Objects-normal/arm64/Leaflet.o",
     "llvm-bc" : "/Users/rahulchopra/Documents/GitHub/LeafletMap/Example/build/Pods.build/Release-iphoneos/LeafletMap.build/Objects-normal/arm64/Leaflet.bc",
     "object" : "/Users/rahulchopra/Documents/GitHub/LeafletMap/Example/build/Pods.build/Release-iphoneos/LeafletMap.build/Objects-normal/arm64/Leaflet.o"
   },
-  "/Users/rahulchopra/Documents/GitHub/LeafletMap/Private/LeafletMap.swift" : {
+  "/Users/rahulchopra/Documents/GitHub/LeafletMap/Classes/Privates/LeafletMap.swift" : {
     "index-unit-output-path" : "/Pods.build/Release-iphoneos/LeafletMap.build/Objects-normal/arm64/LeafletMap.o",
     "llvm-bc" : "/Users/rahulchopra/Documents/GitHub/LeafletMap/Example/build/Pods.build/Release-iphoneos/LeafletMap.build/Objects-normal/arm64/LeafletMap.bc",
     "object" : "/Users/rahulchopra/Documents/GitHub/LeafletMap/Example/build/Pods.build/Release-iphoneos/LeafletMap.build/Objects-normal/arm64/LeafletMap.o"
