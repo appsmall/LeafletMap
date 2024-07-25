@@ -14,8 +14,8 @@
 		2B88C28DD20CBFA7B3AEB21A365197FE /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2CB61F6FA511CAACB43A50DC3A82E0DD /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
 		2ECCAC52EF4C74E1032E0BC646BBE5B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
-		2F6A80E32BF726D6005CAAC3 /* LeafletMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6A80E12BF726D6005CAAC3 /* LeafletMap.swift */; };
-		2F6A80E42BF726D6005CAAC3 /* Leaflet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6A80E22BF726D6005CAAC3 /* Leaflet.swift */; };
+		2F30386B2C52817E0018421F /* LeafletMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3038692C52817E0018421F /* LeafletMap.swift */; };
+		2F30386C2C52817E0018421F /* Leaflet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F30386A2C52817E0018421F /* Leaflet.swift */; };
 		30D475DF57C0C682A723231E7BCA0D14 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
 		373413256658309F9053CE22BF62077E /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		5558B876B579BC1E79BD3D2B19148329 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -81,8 +81,8 @@
 		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		2B4E32495DC9776ECE4B917C04864FB1 /* Pods-LeafletMap_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LeafletMap_Example.modulemap"; sourceTree = "<group>"; };
-		2F6A80E12BF726D6005CAAC3 /* LeafletMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeafletMap.swift; sourceTree = "<group>"; };
-		2F6A80E22BF726D6005CAAC3 /* Leaflet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Leaflet.swift; sourceTree = "<group>"; };
+		2F3038692C52817E0018421F /* LeafletMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeafletMap.swift; sourceTree = "<group>"; };
+		2F30386A2C52817E0018421F /* Leaflet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Leaflet.swift; sourceTree = "<group>"; };
 		31389C32CD5F0BF523C6EB9AB900E968 /* Pods-LeafletMap_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LeafletMap_Tests-umbrella.h"; sourceTree = "<group>"; };
 		3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		3B7A7642A682AE2F8301FE0CA3471E04 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -209,18 +209,18 @@
 		2F12E2042BF776B1002A1804 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				2F99CCCD2C520A4600A0A5C6 /* Privates */,
+				2F3038682C5280F80018421F /* Private */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		2F99CCCD2C520A4600A0A5C6 /* Privates */ = {
+		2F3038682C5280F80018421F /* Private */ = {
 			isa = PBXGroup;
 			children = (
-				2F6A80E22BF726D6005CAAC3 /* Leaflet.swift */,
-				2F6A80E12BF726D6005CAAC3 /* LeafletMap.swift */,
+				2F30386A2C52817E0018421F /* Leaflet.swift */,
+				2F3038692C52817E0018421F /* LeafletMap.swift */,
 			);
-			path = Privates;
+			path = Private;
 			sourceTree = "<group>";
 		};
 		3D51EA5F81254331C4C597077A82CAD0 /* Pods-LeafletMap_Example */ = {
@@ -583,9 +583,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F6A80E42BF726D6005CAAC3 /* Leaflet.swift in Sources */,
-				2F6A80E32BF726D6005CAAC3 /* LeafletMap.swift in Sources */,
+				2F30386B2C52817E0018421F /* LeafletMap.swift in Sources */,
 				723987D32D2077A28C7F49EC493C01E2 /* LeafletMap-dummy.m in Sources */,
+				2F30386C2C52817E0018421F /* Leaflet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
