@@ -11,7 +11,7 @@ import UIKit
 public class LeafletMapView: UIView {
     
     lazy public var map: LeafletMap = {
-        let map = LeafletMap()
+        let map = LeafletMap(frame: self.frame)
         
         return map
     }()
