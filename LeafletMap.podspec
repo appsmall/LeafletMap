@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LeafletMap'
-  s.version          = '0.1.7'
+  s.version          = '0.1.8'
   s.summary          = 'Leaflet map integration for iOS applications using WebView.'
 
   s.description      = <<-DESC

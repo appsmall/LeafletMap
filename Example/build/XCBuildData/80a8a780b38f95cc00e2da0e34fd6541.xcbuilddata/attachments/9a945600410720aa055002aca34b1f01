@@ -7,6 +7,11 @@
     "emit-module-diagnostics" : "/Users/rahulchopra/Documents/GitHub/LeafletMap/Example/build/Pods.build/Release-iphoneos/FBSnapshotTestCase.build/Objects-normal/arm64/FBSnapshotTestCase-master-emit-module.dia",
     "swift-dependencies" : "/Users/rahulchopra/Documents/GitHub/LeafletMap/Example/build/Pods.build/Release-iphoneos/FBSnapshotTestCase.build/Objects-normal/arm64/FBSnapshotTestCase-master.swiftdeps"
   },
+  "/Users/rahulchopra/Documents/GitHub/LeafletMap/Classes/Public/LeafletMapView.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FBSnapshotTestCase.build/Objects-normal/arm64/LeafletMapView.o",
+    "llvm-bc" : "/Users/rahulchopra/Documents/GitHub/LeafletMap/Example/build/Pods.build/Release-iphoneos/FBSnapshotTestCase.build/Objects-normal/arm64/LeafletMapView.bc",
+    "object" : "/Users/rahulchopra/Documents/GitHub/LeafletMap/Example/build/Pods.build/Release-iphoneos/FBSnapshotTestCase.build/Objects-normal/arm64/LeafletMapView.o"
+  },
   "/Users/rahulchopra/Documents/GitHub/LeafletMap/Example/Pods/FBSnapshotTestCase/FBSnapshotTestCase/SwiftSupport.swift" : {
     "index-unit-output-path" : "/Pods.build/Release-iphoneos/FBSnapshotTestCase.build/Objects-normal/arm64/SwiftSupport.o",
     "llvm-bc" : "/Users/rahulchopra/Documents/GitHub/LeafletMap/Example/build/Pods.build/Release-iphoneos/FBSnapshotTestCase.build/Objects-normal/arm64/SwiftSupport.bc",

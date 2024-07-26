@@ -2,7 +2,7 @@ import UIKit
 import WebKit
 import Foundation
 
-public class LeafletMapView: UIView {
+public class LeafletMap: UIView {
 
     lazy private var webView: WKWebView = {
         let config = WKWebViewConfiguration()
